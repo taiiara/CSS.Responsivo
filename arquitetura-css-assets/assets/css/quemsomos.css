@@ -1,0 +1,65 @@
+.quem-somos {
+    padding: 2rem;
+    text-align: center;
+}
+
+.quem-somos__titulo {
+    color: #8D0606;
+    font-family: 'Pacifico', cursive;
+    font-weight: 400;
+    font-size: 3.1875rem;
+    padding-bottom: .5rem;
+}
+
+.quem-somos__descricao {
+    color: #595959;
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.75rem;
+    font-weight: 100;
+    padding-bottom: .5rem;
+}
+
+.pessoas {
+    display: flex;
+    justify-content: space-around;
+}
+
+.pessoa__imagem {
+    border-radius: 50%;
+    margin: 1rem;
+    width: 17.589rem;
+}
+
+.pessoa__nome {
+    color: #8D0606;
+    display: block;
+    font-family: 'Pacifico', cursive;
+    font-size: 2rem;
+    margin: 1rem;
+}
+
+.quem-somos__descricao {
+    color: #595959;
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.75rem;
+    font-weight: 100;
+    padding-bottom: 1rem;
+}
+
+@media screen and (max-width: 280px) {
+
+    .quem-somos {
+        padding: 1rem;
+    }
+}
+
+@media screen and (max-width: 945px) {
+    .pessoas {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .pessoa__imagem {
+        width: 60vw;
+    }
+}
